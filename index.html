@@ -1,0 +1,179 @@
+
+<!-- declaration of doctype -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>MNC Corp Pvt. Ltd.</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lexend+Tera&display=swap" rel="stylesheet" /> 
+        <link rel="stylesheet" href="stylesheet.css" />
+        <link rel="stylesheet" href="960_12_col.css" />
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="text.css" />
+    </head>
+
+    <!-- body starts -->
+
+    <body>
+
+        <div class="container">
+            <h1>M.N.C. Corp Pvt. Ltd.</h1>
+        </div>
+
+
+        <!-- Navigation bar with 1 link as a drop down menu -->
+
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <a class="navbar-brand" href="#">MNC Corp Pvt.Ltd.</a>
+            <button class="navbar-toggler" type="   button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                
+            <!-- making the navbar collapsible -->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Portfolio
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Household products</a>
+                            <a class="dropdown-item" href="#">Enterprise products</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Specialty products</a>
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+                
+        </nav>
+        
+        <!-- Using jumbotron alonwith carousel to make a hero section -->
+
+        <div class="jumbotron jumbotron-fluid">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-fluid" src="../img/Cooling-tower-on-roof-of-building.png" alt="rooftop cooling solution">
+                        <div class="carousel-caption">
+                            <h3>Nooo...1..Cools it betterrrrr....</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="../img/ACHX13_1_1200x800.png" alt="Commercial freezers">
+                        <div class="carousel-caption">
+                            <h3>Most diverse range of products..</h3>
+                        </div>
+                    </div>
+
+
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="../img/Rooftop-Units-Industrial-air-conditioning.jpg" alt="efficient cooling">
+                        <div class="carousel-caption">
+                            <h3>THE Most efficient solutions....</h3>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- making a 3 column section via grid framework -->
+
+        <div class="row three">
+            <div class="col"style="background-image:url('../img/Room-AC.png'); background-repeat: no-repeat;background-size: cover">
+                <h2>ROOM AIR CONDITIONERS</h2>
+                <p>The most technologically advanced and energy efficient air conditioning solutions for small spaces.</p>
+                <p><a href="#" class="button">View Products</a></p>
+            </div>
+            <div class="col"style="background-image:url('../img/product-thumb-2.png'); background-repeat: no-repeat;background-size: cover">
+                <h2>CENTRAL AIR CONDITIONING SOLUTIONS</h2>
+                <p>End-to-end solutions with a comprehensive range of VRF systems, ducted and acked AC's & 
+                    chillers, among others. </p>
+                <p><a href="#" class="button">View Products</a></p>
+            </div>
+            <div class="col"style="background-image:url('../img/product-thumb-4.png'); background-repeat: no-repeat;background-size: cover">
+                <h2>COMMERCIAL REFRIGERATION</h2>
+                <p>We are leaders in commercial refrigeration providing an array of freezers, coolers,bottled water
+                    dispensers, ice makers and more to meet any small and large scale industrial demands.</p>
+                <p><a href="#" class="button">View Products</a></p>
+            </div>
+        </div>
+
+
+        <!-- making a 2 column section from grid framework -->
+
+        <div class="row two">
+            <div class="col-sm-5">
+                <h3>Careers</h3>
+                <p>Partnering with the leader in a high-growth industry in a sensible career move.
+                    Join us for an oppurtunity to make it Big!</p>
+                <p><a href="#" class="button">Join Now!</a></p>
+            </div>
+             <div class="col-sm-7">
+                    <article>
+                        <h3>Green Commitment</h3>
+                        <p>We use R32 refrigerant as part of our Commitment towards a eco-friendly and sustainable
+                            enviornment. We use highest quality manugacturing technologies to create the minimum possible ecological footprint.</p>
+                    </article>
+    
+                    <article>
+                        <h3>ANNUAL REPORT FY'19</h3>
+                        <p>We present you our annual results.</p>
+                        <p><a href="#" class="button">Click to view</a></p>
+                    </article>
+    
+                    <article>
+                        <h3>CSR Initiatives</h3>
+                        <p></p>We carry out various CSR projects, most of which are community improvement and poverty alleviation programs. Through self-help groups, it is engaged in women empowerment activities, income generation, rural community development, and other social welfare programs. In the field of education, we provides scholarships and endowments for numerous institutions.</p>
+                    </article>
+             </div>
+        </div> 
+
+        <!-- making the footer for the page -->
+
+        <div class="container">
+            <footer class="dummysocial">
+                <ul>
+                    <li><a href="#"><img src="../img/pinterest-square-brands.svg" alt="pinterest" width="25px" height="25px"></img></a></li>
+                    <li><a href="#"><img src="../img/facebook-square-brands.svg" alt="pinterest" width="25px" height="25px"></img></a></li>
+                    <li><a href="#"><img src="../img/instagram-brands.svg" alt="pinterest" width="25px" height="25px"></img></a></li>
+                    <li><a href="#"><img src="../img/twitter-brands.svg" alt="pinterest" width="25px" height="25px"></img></a></li>
+                </ul>
+            </footer>
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>

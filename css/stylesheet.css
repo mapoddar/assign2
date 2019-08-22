@@ -1,0 +1,103 @@
+/* style for page body */
+ body{
+    background: #e3e3e3;
+    
+    margin: auto;
+}  
+
+body h1{
+    padding-top: 20px;
+    padding-left: 200px;
+    font-family: 'Lexend Tera', sans-serif;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 2px; 
+}
+
+
+/* style for navigation bar */
+
+
+.navbar-brand{
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+.nav-link{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+
+.navbar{
+    position: relative;
+
+}
+.navbar:hover{
+    color: darkslateblue;
+}
+
+/* style for hero section */
+
+.jumbotron h3{
+    font-size: 45px;
+    color: white;
+    background: black;
+    opacity: 0.5;
+    border: 5px solid black;
+    filter: alpha(opacity=60);
+}
+
+/* style for 3 col section */
+
+.three{
+    padding-bottom: 45px;
+    padding-left: 10px;
+    border-bottom: .5px dotted grey;
+}
+.three h2{
+    text-decoration: underline solid rgb(163, 187, 190);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.three p{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.two button{
+    border: 3px solid black;
+}
+/* style for 2 col section */
+
+.two{
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.two h3{
+    font-weight: 550;
+    
+}
+.two p{
+    font-size: 17px;
+}
+
+/* style for footer */
+
+ .dummysocial ul{
+    overflow: hidden;
+    background-color:#e3e3e3;
+    
+}
+.dummysocial{
+    position: relative;
+    border-left: 2px solid black;
+    /* border-right: 1px solid black; */
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 29px;
+}
+.dummysocial li{
+    display: inline;
+    text-decoration: none;
+    float: right;
+    padding-right: 10px;
+    border-right: 2px solid black;
+}
